@@ -10,27 +10,18 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
+    height: 150px;
     background: linear-gradient(135deg,#2aed72,rgb(227, 135, 30));
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    transition: height .5s ease;
 }
 
 .slide-down{
-    animation: slideDown .5s;
+    height: 575px;
 }
-
-@keyframes slideDown {
-    from{
-        height: 150px;
-    }
-    to{
-        height: 574px;
-    }
-    
-}
-
 
 .search{
     width: 100%;
@@ -67,7 +58,7 @@ body{
 }
 
 .fade-in {
-animation: fadeIn 2s;
+    animation: fadeIn 2.5s;
 }
 
 @keyframes fadeIn {
